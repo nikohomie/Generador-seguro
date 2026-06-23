@@ -1,0 +1,6 @@
+{
+  "name": "Generador de Contraseñas",
+  "description": "Una aplicación web de cliente estático para generar contraseñas seguras, lista para GitHub Pages.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
