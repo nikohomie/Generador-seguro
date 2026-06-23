@@ -5,7 +5,9 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: './', // Esto asegura que las rutas a los assets sean relativas y funcionen correctamente en GitHub Pages.
+    // base: './' funciona para GitHub Pages si accedes con la barra final (ej. /mi-repo/).
+    // Si sigue en blanco, cambia './' por el nombre de tu repositorio: base: '/nombre-de-tu-repo/'
+    base: './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
