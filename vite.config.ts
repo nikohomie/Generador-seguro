@@ -5,9 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    // base: './' funciona para GitHub Pages si accedes con la barra final (ej. /mi-repo/).
-    // Si sigue en blanco, cambia './' por el nombre de tu repositorio: base: '/nombre-de-tu-repo/'
-    base: './',
+    base: '/Generador-seguro/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
